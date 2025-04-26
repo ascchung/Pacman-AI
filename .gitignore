@@ -1,5 +1,30 @@
+# Virtual environments
 venv/
+
+# Python bytecode
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Data and models
 data/
 models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Video outputs
+*.mp4
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Logs and checkpoints
+*.log
+checkpoint.pth
+
+# OS files
+.DS_Store
+Thumbs.db
